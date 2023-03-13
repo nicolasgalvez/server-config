@@ -1,0 +1,19 @@
+{
+  "name": "server-config",
+  "version": "1.0.0",
+  "description": "A script to generate and manage configuration files for server environments",
+  "main": "server-config.js",
+  "bin": {
+    "server-config": "./server-config.js"
+  },
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.0.1"
+  },
+  "scripts": {
+    "start": "node server-config.js",
+    "create": "node server-config.js create",
+    "delete": "node server-config.js delete"
+  }
+}
